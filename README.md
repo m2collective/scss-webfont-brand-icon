@@ -2,7 +2,7 @@
 
 Package for integrating `Brand Icon` fonts in a web environment.
 
-![npm](https://img.shields.io/npm/v/@m2collective/scss-webfont-brand-icons?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/@m2collective/scss-webfont-brand-icon?style=for-the-badge)
 
 ___
 
