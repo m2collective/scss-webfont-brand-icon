@@ -26,13 +26,14 @@ You can also configure which fonts will be used when importing:
 
 ```scss
 @use "@m2collective/scss-webfont-brand-icons" with (
-  $font-display: swap
+  $font-display: swap,
+  $font-family: 'Brand Icons',
 );
 ```
 
 ```scss
 body {
-  font-family: 'Brand Icons', sans-serif;
+  font-family: 'Brand Icons';
 }
 ```
 
