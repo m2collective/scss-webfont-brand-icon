@@ -1,6 +1,6 @@
-# SCSS WebFont Brand Icons
+# SCSS WebFont Brand Icon
 
-Package for integrating `Brand Icons` fonts in a web environment.
+Package for integrating `Brand Icon` fonts in a web environment.
 
 ![npm](https://img.shields.io/npm/v/@m2collective/scss-webfont-brand-icons?style=for-the-badge)
 
@@ -11,7 +11,7 @@ ___
 This package can be deployed automatically using NPM:
 
 ```
-npm i @m2collective/scss-webfont-brand-icons
+npm i @m2collective/scss-webfont-brand-icon
 ```
 
 ## Usage
@@ -19,21 +19,21 @@ npm i @m2collective/scss-webfont-brand-icons
 Font files are located in the `fonts` directory. To import all fonts, you can use:
 
 ```scss
-@use "@m2collective/scss-webfont-brand-icons";
+@use "@m2collective/scss-webfont-brand-icon";
 ```
 
 You can also configure which fonts will be used when importing:
 
 ```scss
-@use "@m2collective/scss-webfont-brand-icons" with (
+@use "@m2collective/scss-webfont-brand-icon" with (
   $font-display: swap,
-  $font-family: 'Brand Icons',
+  $font-family: 'Brand Icon',
 );
 ```
 
 ```scss
 body {
-  font-family: 'Brand Icons';
+  font-family: 'Brand Icon';
 }
 ```
 
