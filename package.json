@@ -1,0 +1,42 @@
+{
+  "name": "@m2collective/scss-webfont-brand-icons",
+  "version": "1.0.0",
+  "description": "Package for integrating WebFont Brand Icons.",
+  "keywords": [
+    "m2collective",
+    "scss",
+    "webfont",
+    "brand-icons",
+    "font",
+    "typeface",
+    "woff",
+    "woff2",
+    "normal"
+  ],
+  "main": "index.scss",
+  "exports": {
+    ".": {
+      "sass": "./index.scss",
+      "default": "./index.scss"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m2collective/scss-webfont-brand-icons.git"
+  },
+  "author": {
+    "name": "bu0nq",
+    "email": "hello@bu0nq.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m2collective/scss-webfont-brand-icons/issues"
+  },
+  "homepage": "https://github.com/m2collective/scss-webfont-brand-icons#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
